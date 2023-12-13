@@ -7,8 +7,8 @@ class Validator {
             this.name = name;
             return true
         }
+        
         throw new Error('Введите корректное имя')
-       
     } 
 }
 
